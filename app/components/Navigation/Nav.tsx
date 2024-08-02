@@ -12,7 +12,7 @@ const Nav = ({openNav}: NavProps) => {
   return (
     <div className='h-[12vh] bg-white'>
         <div className='sm:w-[90%] w-[95%] mx-auto flex h-[100%] items-center justify-between'>
-            {/* {logo} */}
+
             <div className='flex items-center space-x-2'>
                 <FaBurger className='w-[1.2rem] h-[1.2rem] sm:w-[1.4] sm:h-[1.4rem] text-orange-500' />
                 <h1 className='text-[20px] sm:text-[30px] font-semibold'>
@@ -37,7 +37,7 @@ const Nav = ({openNav}: NavProps) => {
                 </li>
             </ul>
             <div className='flex items-center space-x-4'>
-                <button className='px-6 py-2 sm:px-8 sm:py-3 sm:text-[16] bg-blue-950 transition-all duration-200 hover:bg-red-600 flex items-center rounded-md space-x-2 text-white'>
+                <button className='px-6 py-2 sm:px-8 sm:py-3 sm:text-[16px] bg-blue-950 transition-all duration-200 hover:bg-red-600 flex items-center rounded-md space-x-2 text-white'>
                     <span>
                         <BiCycling className='w-[1.3rem] h-[1.3rem] sm:w-[1.7] sm:h-[1.7rem]' />
                     </span>
@@ -48,7 +48,7 @@ const Nav = ({openNav}: NavProps) => {
                 <button className='sm:px-6 sm:py-3 px-4 py-2 hover:bg-green-700 transition-all duration-200 bg-orange-600 flex items-center rounded-md text-white'>
                     <BiShoppingBag className='w-[1.3rem] h-[1.3rem] sm:w-[1.7] sm:h-[1.7rem]' />
                 </button>
-                <HiBars3BottomRight onClick={openNav} className='lg:hidden w-[2rem] h-[2rem] text-black' />
+                <HiBars3BottomRight onClick={openNav} className='lg:hidden w-[2rem] h-[2rem] text-black cursor-pointer' />
             </div>
         </div>
     </div>
