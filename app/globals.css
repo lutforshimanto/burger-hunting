@@ -6,5 +6,20 @@
   .clip_path {
     clip-path: polygon(9% 10%, 85% 0, 98% 100%, 10% 88%, 0 55%);
   }
+  .heading {
+    @apply text-[30px] md:text-[35px] lg:text-[45px] xl:text-[50px] uppercase font-bold text-gray-900 md:leading-[4rem] leading-[3rem] text-center;
+  }
 }
 
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+input[type="time"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+input[type="time"]::-webkit-calendar-picker-indicator::after {
+  filter: invert(1);
+}
