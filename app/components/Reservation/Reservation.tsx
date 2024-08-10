@@ -12,9 +12,10 @@ const Reservation = () => {
             DO YOU HAVE ANY DINNER PLAN TODAY? RESERVE YOUR TABLE
           </h1>
           <p className="text-[17px] mt-[1rem] text-white text-opacity-50">
-            Planning a dinner with friends or family? We've got the perfect spot
-            for you! Reserve your table today and get ready to enjoy a dining
-            experience that's all about great food and even better company.
+            Planning a dinner with friends or family? We have got the perfect
+            spot for you! Reserve your table today and get ready to enjoy a
+            dining experience that is all about great food and even better
+            company.
           </p>
           <div className="flex mt-[2rem] items-center space-x-4">
             <div className="w-[3rem] h-[3rem] bg-red-600 rounded-full flex items-center justify-center flex-col">
